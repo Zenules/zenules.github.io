@@ -1,0 +1,111 @@
+/* raleway-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./fonts/raleway-v34-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/raleway-v34-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/raleway-v34-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/raleway-v34-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}  
+
+/* --- Basic Reset & Layout --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background-color: #f8f9fa;
+    color: #111;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-bottom: .5rem;
+}
+
+.company-name {
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.tagline {
+    margin: 0.5rem 0 0;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #395e35;
+}
+
+.status {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+}
+
+.email {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #007bff;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.email:hover,
+.email:focus {
+    border-color: #007bff;
+}

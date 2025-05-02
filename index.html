@@ -5,94 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenules – Coming Soon</title>
 
-    <style>
-      /* work-sans-300 - latin */
-      @font-face {
-        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-        font-family: 'Work Sans';
-        font-style: normal;
-        font-weight: 300;
-        src: url('./fonts/work-sans-v19-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      }
-      
-      /* work-sans-regular - latin */
-      @font-face {
-        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-        font-family: 'Work Sans';
-        font-style: normal;
-        font-weight: 400;
-        src: url('./fonts/work-sans-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      }
-
-      
-      /* --- Basic Reset & Layout --- */
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-      }
-
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 300;
-        background-color: #f8f9fa;
-        color: #111;
-        line-height: 1.4;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-
-      .container {
-        text-align: center;
-        padding: 1rem;
-      }
-
-      .company-name {
-        font-size: 3rem;
-        letter-spacing: 0.5px;
-        margin: 0;
-      }
-
-      .tagline {
-        margin: 0.5rem 0 0;
-        font-size: 1.25rem;
-        letter-spacing: 1px;
-      }
-
-      .status {
-        margin-top: 1.5rem;
-        font-size: 1.5rem;
-        font-weight: 400;
-        text-transform: uppercase;
-      }
-
-      .email {
-        display: inline-block;
-        margin-top: 1rem;
-        font-size: 1rem;
-        text-decoration: none;
-        color: #007bff;
-        border-bottom: 1px solid transparent;
-        transition: border-color 0.2s ease;
-      }
-
-      .email:hover,
-      .email:focus {
-        border-color: #007bff;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <main class="container">
+      <img class="logo" src="assets/logo.png" alt="Zenules logo" />
       <h1 class="company-name">Zenules</h1>
       <p class="tagline">Energy Systems&nbsp;|&nbsp;ML&nbsp;|&nbsp;Optimization</p>
       <p class="status">Coming&nbsp;Soon</p>
