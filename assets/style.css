@@ -64,6 +64,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
 .container {
     text-align: center;
     padding: 1rem;
@@ -98,17 +106,38 @@ body {
     /* font-weight: 500; */
 }
 
-.email {
+p.text {
+    font-style: normal;
+    white-space: pre-line;
+    text-align: left;
+    line-height: .8;
+    font-size: 1.2rem;
+}
+
+a {
     display: inline-block;
-    margin-top: 1rem;
-    font-size: 1rem;
     text-decoration: none;
     color: #007bff;
     border-bottom: 1px solid transparent;
     transition: border-color 0.2s ease;
 }
 
-.email:hover,
-.email:focus {
+a:hover,
+a:focus {
     border-color: #007bff;
+}
+
+.email {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.back-link {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.imprint .phone {
+    height: 1.05rem;
+    margin-bottom: -4px;
 }
