@@ -369,6 +369,20 @@ nav ul li a:hover{
 	color:#4b7a9a;
 	margin-bottom: 0;
 }
+.person .linkedin{
+	color: #4b7a9a;
+	font-size: 0.9em;
+	text-decoration: none;
+	font-weight: 600;
+	transition: color 200ms;
+}
+.person .linkedin svg{
+	vertical-align: -2px;
+	margin-right: 2px;
+}
+.person .linkedin:hover{
+	color: #97a868;
+}
 .person>img{
 	width:80%;
 	height:auto;
