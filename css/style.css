@@ -156,6 +156,9 @@ h3{
 	color:#4b7a9a;
 	font-weight: 700;
 }
+h3.small{
+	font-size: 1.3em;
+}
 h4{
 	color:#97a868;
 	margin:10px 0;
