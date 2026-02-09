@@ -1,0 +1,815 @@
+/* nunito-sans-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/nunito-sans-v19-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-200italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200;
+  src: url('../fonts/nunito-sans-v19-latin-200italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/nunito-sans-v19-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-300italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/nunito-sans-v19-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/nunito-sans-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/nunito-sans-v19-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/nunito-sans-v19-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/nunito-sans-v19-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/nunito-sans-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/nunito-sans-v19-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/nunito-sans-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/nunito-sans-v19-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/nunito-sans-v19-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-800italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../fonts/nunito-sans-v19-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/nunito-sans-v19-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/nunito-sans-v19-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{
+	font-family: 'Nunito Sans';
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body,html{
+	margin:0;
+	min-height: 100% !important;
+    height: 100%;
+}
+a{
+	text-decoration: none;
+	color:#4b7a9a;
+	font-weight: 600;
+}
+h2{
+	font-weight:200;
+	font-size: 2em;
+	color:#4b7a9a;
+	margin-top:3em;
+	margin-bottom: 1em;
+}
+h3{
+	font-size: 2.3em;
+	color:#4b7a9a;
+	font-weight: 700;
+}
+h4{
+	color:#97a868;
+	margin:10px 0;
+	font-size: 1.2em;
+	font-weight:600;
+}
+h5{
+	color:#858585;
+	margin: 5px 0;
+	font-size: 1em;
+	font-weight: 700;
+}
+hr{
+	margin:5em 0;
+	margin-bottom:0;
+}
+.clear{
+	clear:both;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navBar{
+	position:fixed;
+	top:0;
+	height:100px;
+	width:100%;
+	background-color: #FFF;
+	z-index: 100;
+	transition:all 300ms;
+}
+#navBar.small{
+	height:50px;
+	transition:all 300ms;
+}
+#navBar.small #branding{
+	background-size: auto 70%;
+	transition:all 300ms;
+}
+#branding{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-image: url(../img/logoB.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 50%;
+	transition:all 300ms;
+}
+nav{
+	position: relative;
+	width:60%;
+	height:100%;	
+	float:left;
+	display: flex;
+  	justify-content: left;
+  	align-items: center;
+	padding-left: 0px;
+}
+nav ul{
+	padding:0;
+	margin:0;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type: none;
+	margin-right: 15px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#858585;
+	font-size: 1em;
+	transition: color 500ms;
+	transition:font-size 300ms;
+}
+#navBar.small nav ul li a{
+	font-size: 1em;
+	transition:font-size 300ms;
+}
+nav ul li a:hover{
+	color:#4b7a9a;
+	transition: color 500ms;
+}
+#mobileMenu{
+	display: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20%;
+    top: 30px;
+    cursor: pointer;
+    background-image: url(../img/mobileMenu.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+	z-index: 1000;
+	transition:top 100ms;
+}
+#mobileMenu.open{
+	 background-position: center bottom;
+}
+.anchor{
+	display:block;
+	visibility:hidden;
+	position:relative;
+	top:-50px;
+}
+.headline{
+	width:100%;
+	position: absolute;
+	padding-top: 110px;
+}
+.headlineMain{
+	width:60%;
+	color:#FFF;
+	font-weight: 700;
+	padding:20px;
+	padding-left: 20%;
+	font-size: 1.6em;
+	margin-top: 5%;
+	background-color: #4b7a9a;
+	border-radius: 0px 7px 7px 0px;
+}
+.headlineSub{
+	position: absolute;
+	right:0;
+	width:60%;
+	color:#FFF;
+	font-weight: 300;
+	padding:20px;
+	padding-right: 20%;
+	font-size: 1.3em;
+	margin-top: 2%;
+	background-color: #97a868;
+	border-radius: 7px 0px 0px 7px;
+}
+.stoerer{
+    position: absolute;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #4b7a9a;
+    background: radial-gradient(ellipse at 30% 30%,rgba(137, 182, 214, 1) 0%, rgba(75, 122, 154, 1) 50%);
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    bottom: 25px;
+    left: 20%;
+    cursor: pointer;
+    animation: scaling 500ms;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+    box-shadow: 5px 5px 20px rgba(13,13,13,0.38);
+    -webkit-box-shadow: 5px 5px 20px rgba(13,13,13,0.38);
+}
+.stoerer a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: 700;
+	color: rgba(255,255,255,1);
+	transition:color 500ms;
+}
+.stoerer:hover{
+    background-color: #75A3C2;
+	background: radial-gradient(ellipse at 30% 30%,rgba(160, 202, 235, 1) 0%, rgba(87, 137, 171, 1) 50%);
+}
+
+@keyframes scaling {
+  from {scale: 1;}
+  to {scale: 0.95;}
+}
+.wrapper{
+	width:60%;
+	margin:0 auto;
+	color:#858585;
+}
+.column{
+	float:left;
+	color:#858585;
+}
+.column.third{
+	width:33.3%;
+	padding:10px;
+}
+.column.half{
+	width:50%;
+	padding:10px;
+}
+.column.twoThird{
+	width:70%;
+	padding:10px;
+}
+.icon{
+	padding:25%;
+	padding-top: 0;
+	padding-bottom: 15px;
+}
+.person{
+	width:50%;
+	float: left;
+}
+.person p{
+	font-weight: 600;
+	color:#4b7a9a;
+	margin-bottom: 0;
+}
+.person>img{
+	width:80%;
+	height:auto;
+	aspect-ratio: 1 / 1;
+	left:10%;
+	overflow:hidden;
+}
+.contact{
+	width:100%;
+	margin-top:7em;
+	background-color: #e5e5e5;
+	padding:1em 0 3em 0;
+}
+.button{
+	font-family: "Nunito Sans";
+	font-weight: 700;
+	position:relative;
+	font-size: 1.15em;
+	float:right;
+	background-color: #97a868;
+	color:#FFF;
+	border:none;
+	padding: 16px 40px;
+	border-radius: 7px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	transition: background-color 250ms, transform 200ms, box-shadow 200ms;
+	box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+.button:hover{
+	background-color: #a8b87a;
+	transform: translateY(-2px);
+	box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+.button:active{
+	background-color: #8a9a5c;
+	transform: translateY(1px);
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.support{
+	width:100%;
+	background-color: #97a868;
+	padding:2em 0;
+}
+.support .wrapper .column{
+	color:#FFF;	
+}
+.supportLogos{
+	width:100%;
+	background-color: #e5e5e5;	
+	padding:2em 0;
+}
+.supportLogos .wrapper{
+	display: flex;
+  	justify-content: left;
+  	align-items: center;
+}
+.supportLogo{
+	width:15%;
+	margin-right:25px;
+	float:left;
+}
+.accordion{
+	margin-bottom:20px;
+}
+.accordionHead{
+    color: #4b7a9c;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+    cursor:pointer;
+}
+.accordionIcon{
+	position: absolute;
+	width:40px;
+	height:40px;
+	margin-left:-40px;
+	margin-top:-8px;
+	background-image: url(../img/accordion.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40px auto;
+}
+.accordionIcon.open{
+	background-position: left bottom;
+}
+.accordionContent{
+	color: #858585;
+	padding-left:40px;
+	display:none;
+}
+footer{
+	position: relative;
+    width: 100%;
+	background-color: #4b7a9c;
+}
+footer .signet{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-image: url(../img/signet.svg);
+    background-position: right center;
+    background-size: auto 200%;
+    background-repeat: no-repeat;
+	opacity:0.1;
+}
+footer nav ul{
+	margin-top: 20px;
+}
+footer nav ul li a {
+    color: rgba(255,255,255,1);
+}
+footer nav ul li a:hover {
+    color: rgba(255,255,255,0.7);
+}
+.copyright{
+	position: relative;
+	padding:100px 0 40px 0;
+	color:#FFF;
+}
+@media only screen and (min-width: 2000px) {
+	.wrapper{
+		position: relative;
+		max-width:1200px;
+		margin-left:20%;
+	}
+	#branding {
+		background-size: auto 70%;
+		background-position: 40% center;
+	}
+	#navBar.small #branding {
+		background-size: auto 70%;
+	}
+	.headlineMain{
+		width: 45%;
+	}
+	.headlineSub {
+		padding-right: 30%;
+	}
+	.stoerer {
+		bottom:45%;
+	}
+}
+
+@media (max-width: 1400px) {
+	#branding{
+		background-size: 70% auto;
+	}
+	#navBar.small #branding{
+		background-size: 50% auto;
+	}
+	.stoerer {
+		bottom:25%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.column.twoThird {
+		width:100%;
+	}
+	#branding{
+		background-size: 70% auto;
+	}
+	#navBar.small #branding{
+		background-size: 50% auto;
+	}
+	.stoerer {
+		bottom:15%;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.wrapper{
+		width:80%;
+	}
+	#branding{
+		margin-left: 8%;
+	}
+	#mobileMenu{
+		display: block;
+		right:10%;
+	}
+	#navBar.small #mobileMenu {
+		top:6px;
+		transition:top 100ms;
+	}
+	#navBar>nav{
+		position:absolute;
+		background-color: #4b7a9a;
+		width:100%;
+		height:100vh;
+		top:0;
+		left:0;
+		align-items:flex-start;
+		padding-top: 120px;
+		padding-left: 40px;
+		display: none;
+	}
+	#navBar>nav:before{
+		content: "";
+		position: absolute;
+		width: 70%;
+		height: 50px;
+		top:40px;
+		background-image: url(../img/logoW.svg);
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: contain;
+		opacity:0.3;
+	}
+	#navBar>nav:after{
+   		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 25;
+		background-image: url(../img/signet.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
+		opacity:0.1;
+	}
+	#navBar>nav ul{
+		z-index: 100;
+	}
+	#navBar>nav ul li{
+		display:block;
+	}
+	#navBar>nav ul li a{
+		color:#FFF;
+		font-weight:100;
+		font-size:1.6em;
+		line-height: 2.5em;		
+	}
+	#navBar.small nav ul li a{
+		font-size: 1.6em;
+	}
+	.supportLogo{
+		width:20%;
+		float:left;
+	}
+	.stoerer{
+		bottom:50px;
+	}
+}
+
+
+@media (max-width: 700px) {
+	#navBar.small #branding{
+		background-position: left center;
+		background-size: 50% auto;
+		margin-left:10%;
+	}
+	#branding{
+		width:30%;
+	}
+	.headlineMain{
+		width:80%;
+		font-size:1.1em;
+	}
+	.headlineSub{
+		width:80%;
+	}
+	.stoerer{
+		//width:40%;
+	}
+	.column.third{
+		width:70%;
+		float: none;
+		margin: 0 auto;
+	}
+	.column.twoThird {
+		width:100%;
+	}
+	.column.half{
+		width:100%;
+	}
+}
+
+@media (max-width: 650px) {
+	.wrapper{
+		width:90%;
+	}
+	#branding{
+		width:50%;
+		margin-left: 5%;
+		background-size: 60% auto;
+	}
+	#navBar.small #branding {
+		background-size: 40% auto;
+	}
+	#mobileMenu{
+		//top:25px;
+	}
+	#navBar{
+		position: fixed;
+		top:0;
+	}
+	#navBar.small {
+		height:50px;
+	}
+	#navBar.small #mobileMenu {
+		top:5px;
+	}
+	#navBar.small.open #mobileMenu {
+        top: 35px;
+    }
+	header{
+		height:70%;
+	}
+	.stoerer {
+        width: auto;
+        font-size: 0.7em;
+        top: 55%;
+        right: 20px;
+        left: auto;
+        bottom: auto;
+    }
+	.headlineMain{
+		font-size:1em;
+		width:90%;
+		padding-left: 10%;
+	}
+	.headlineSub{
+		width:90%;
+		font-size:0.8em;
+		padding-right: 10%;
+	}
+	hr{
+		width:70%;
+		margin:0 auto;
+		margin-top: 50px;
+	}
+	h2{
+		font-size:1.5em;
+		padding-left: 10px;
+	}
+	h3{
+		font-size:1.5em;
+		padding:0 10px;
+	}
+	.button {
+		float: none;
+        width: auto;
+        display: table;
+        margin: 0 auto;
+        margin-top: 20px;
+	}
+	.column.third{
+		width:100%;
+	}
+	.column.twoThird{
+		width:100%;
+	}
+	.accordionHead{
+		font-size:1em;
+	}
+	.supportLogos .wrapper {
+		display:block;
+	}
+	.supportLogo{
+		float:none;
+		margin:20px auto;
+		width:50%;
+	}
+	.person{
+		width:100%;
+		margin:20px 0;
+	}
+	.person>img{
+		max-width:200px;
+	}
+	footer .signet{
+		width:90%;
+		background-size: auto 150%;
+	}
+}
+
+/* CTA Pill Center */
+.cta-pill-center {
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	animation: bounce-pill 2.5s ease-in-out infinite;
+}
+.cta-pill-center a {
+	display: inline-block;
+	padding: 20px 45px;
+	background-color: rgba(75, 122, 154, 0.9);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: 700;
+	text-decoration: none;
+	border-radius: 7px;
+	border: 2px solid rgba(255,255,255,0.3);
+	transition: background-color 300ms, border-color 300ms, transform 200ms;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.cta-pill-center a:hover {
+	background-color: rgba(87, 137, 171, 0.95);
+	border-color: rgba(255,255,255,0.6);
+	transform: translateY(-3px);
+	box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+.cta-pill-center a::after {
+	content: "";
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-right: 2.5px solid #fff;
+	border-bottom: 2.5px solid #fff;
+	transform: rotate(45deg);
+	margin-left: 14px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+}
+@keyframes bounce-pill {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(5px); }
+}
+@media (max-width: 650px) {
+	.cta-pill-center {
+		position: relative;
+		bottom: auto;
+		top: 80%;
+	}
+	.cta-pill-center a {
+		font-size: 0.95em;
+		padding: 16px 30px;
+	}
+}
+
+
+
